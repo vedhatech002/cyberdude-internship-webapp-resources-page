@@ -13,7 +13,10 @@ export default {
       colors: {
         'cdn-red': '#F45050',
         'cdn-yellow': '#F9D949',
-        'hero-card-color': '#D9D9D9',
+        'hero-card-color': '#d9d9d98c',
+      },
+      backgroundImage: {
+        'hero-banner': "url('/public/images/herobanner.png')"
       }
     },
   },
