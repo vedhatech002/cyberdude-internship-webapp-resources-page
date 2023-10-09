@@ -19,6 +19,8 @@ export default {
         'hero-banner': "url('/public/images/herobanner.png')"
       },
       screens: {
+        'lgtablet': '940px',
+        // => @media (min-width: 940px) { ... }
         'lgmobiles': '425px',
         // => @media (min-width: 425px) { ... }
 
