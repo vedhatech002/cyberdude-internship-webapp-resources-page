@@ -14,6 +14,7 @@ export default {
         'cdn-red': '#F45050',
         'cdn-yellow': '#F9D949',
         'hero-card-color': '#d9d9d98c',
+        'cdn-footer-color': '#3C486B',
       },
       backgroundImage: {
         'hero-banner': "url('/public/images/herobanner.png')"
