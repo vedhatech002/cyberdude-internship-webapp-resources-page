@@ -23,10 +23,16 @@ export default {
         // => @media (min-width: 425px) { ... }
 
         'mdmobiles': '375px',
-        // => @media (min-width: 1024px) { ... }
+        // => @media (min-width: 375px) { ... }
 
         'smmobiles': '320px',
-        // => @media (min-width: 1280px) { ... }
+        // => @media (min-width: 320px) { ... }
+      },
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        'main-grid': '1fr 3fr',
+
+
       },
     },
   },
