@@ -17,7 +17,17 @@ export default {
       },
       backgroundImage: {
         'hero-banner': "url('/public/images/herobanner.png')"
-      }
+      },
+      screens: {
+        'lgmobiles': '425px',
+        // => @media (min-width: 425px) { ... }
+
+        'mdmobiles': '375px',
+        // => @media (min-width: 1024px) { ... }
+
+        'smmobiles': '320px',
+        // => @media (min-width: 1280px) { ... }
+      },
     },
   },
   plugins: [],
