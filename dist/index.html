@@ -13,14 +13,13 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <!-- css linking -->
-  <!-- <link rel="stylesheet" href="./public/css/main.css"> -->
-  <!-- dist folder css linking for deployment purpose -->
-  <link rel="stylesheet" href="./dist/assets/index-33c471c0.css">
+  
   <style>
     .no-scrollbar::-webkit-scrollbar {
       display: none;
     }
   </style>
+  <link rel="stylesheet" href="/assets/index-33c471c0.css">
 </head>
 
 <body>
@@ -28,7 +27,7 @@
   <header class="lg:px-10 md:px-6  smmobiles:px-3 bg-white flex items-center justify-between shadow-md">
     <!-- logo div -->
     <div>
-      <a href="#"> <img class="w-32" src="./public/images/logo.png" alt="cyberdude"></a>
+      <a href="#"> <img class="w-32" src="/assets/logo-b609a416.png" alt="cyberdude"></a>
 
     </div>
     <!-- navigation menus -->
@@ -81,7 +80,7 @@
         <div
           class="flex flex-col smmobiles:w-[15rem] lgmobiles:w-auto smmobiles:px-5 smmobiles:py-6  items-center gap-y-3 bg-hero-card-color lgmobiles:px-4 lgmobiles:py-5 rounded-[18px]">
           <div class="bg-cdn-yellow rounded-full p-1 font-inter">
-            <img class="w-[50px] h-[50px]" src="./public/images/Idea.png" alt="idea">
+            <img class="w-[50px] h-[50px]" src="data:image/png;base64,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" alt="idea">
           </div>
           <p class="text-xs font-bold text-center"># 1 Programming Tamil
             <br> Community Online
@@ -90,7 +89,7 @@
         <!-- card -->
         <div class="flex flex-col items-center gap-y-3 bg-hero-card-color px-4 py-5 rounded-[18px]">
           <div class="bg-black rounded-full p-1 font-inter">
-            <img class="w-[50px] h-[50px]" src="./public/images/3d Pointer.png" alt="idea">
+            <img class="w-[50px] h-[50px]" src="data:image/png;base64,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" alt="idea">
           </div>
           <p class="text-xs font-bold text-center">This page going to be<br>
             your go-to search engine<br>
@@ -100,7 +99,7 @@
         <!-- card -->
         <div class="flex flex-col items-center gap-y-3 bg-hero-card-color px-4 py-5 rounded-[18px]">
           <div class="bg-[#55B66A] rounded-full p-1 font-inter">
-            <img class="w-[50px] h-[50px]" src="./public/images/Checkmark.png" alt="idea">
+            <img class="w-[50px] h-[50px]" src="data:image/png;base64,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" alt="idea">
           </div>
           <p class="text-xs font-bold text-center">Got Stucked! Visit here
             <br> and find the resolve.
@@ -109,7 +108,7 @@
         <!-- card -->
         <div class="flex flex-col items-center gap-y-3 bg-hero-card-color px-4 py-5 rounded-[18px]">
           <div class="bg-[#6B7FBA] rounded-full p-1 font-inter">
-            <img class="w-[50px] h-[50px]" src="./public/images/Upload to the Cloud.png" alt="idea">
+            <img class="w-[50px] h-[50px]" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAARISURBVHgB7ZhraBxVFMf/584+8mgiNdYmNo3NByvE4oeGig+oVpCE2BRatSKi0FJKrV+kRfSTIugHscXPVogFba0SafNoqzYoVYoRqhKqUWuoNW4ezUMTzWMfc+d4Zu1uN2myj9mBZmF+sMy9d+7M3v+Ze8659wIeHh4eHh4eILgIM9O5MSz7KxpdZSjjXkvTWlZcYd9TFo1a4D6Q0T0exeUdtRSGi7gm5NPLXBX1xbYQ0dMEuoeB4CJdI2B0M6wPwxP+I9vX0RRcwBUhbZfCdxpB30EZfFMO77Skf1fAMp5vXE19yJO8hZwM8XaGPsSEm+AAGcCgXPZvXuU7hjzIS0jHsPkkNFqkWII8YMYs+YwdzZX0ERziWEjrn3xHgPQ5IqyAGzDG/Gzc53SaKTjgPLM/aOhDromwIdwSJf3GO+fZDwc4EjI0qLeJBR+Ey4hhmqsq9VY4wJdNp1O/cVAXRWqYVAUrCki02Uuc3bSMhs34NVCU1V8VK8IuuX6MHFl0MHZyax/EWmWZWyQiPS75oVaay+SJAP4XkVGI1oyuY732u/DIU3fBMDJrl74RXeqr3LqcJpADC5qpfYBLOq5Yu8Q6+6CohlIHzcgKlizx9YmL+LF7IF4vX16M+k23I1iS/suIwYJqxtwgxTPIgeve2jbKZYiYLytN+9Nk54x8f7Yf3539I/41bL49cwn+IgMbHl6T8VsS1Pr2gZlf7XLQKA7rlZhsIoqkfyYFOxoND5hvWqA94njFcMjvvWPoaOlJ+kcC20+ad96N2rr0wU60zyhivxX3fxqXeq9S1K5IHWmqolFkEtIZMp8Qf3hPiqVwgG39UN8EOg/3YHpyYQMuKw9i29563Fpdhpwh6pd/eaH5Nt/x+beS4deOTEz8EhyKsBkfmhLn/mlRETZT/0Rw+v0LmByfRc4w10i0PNoW0nvm30oKCZeYGyUY1cEh4ekYvmj9BeNXpjP2HR34F6c/uIBZeSZXxOOKZNodONEfbkhtT06tjsHYQTDtg0vYFn/31a/mtO1+bSPKKxy73jy4J2D4HmiopLjlUjI71aOAkDRXFzGjjybq6toNayUKCAlnftltPpSoJ4XIHDNQaDCvTxRThNAICgwidXOifG1qgX5GgUFsJQ8wUoTgS/k5CO43DoZxMVFOCgkaRpeyj2sKBplDyvo8UUsuGiUej5wM6cOS3Q/AhUOJIlnlNj6zbk5bsMTR5m9BmGiElZFcIc8Z8GfDXBrRZqs4fiOWNiwR65Xmav/riYY5W107S8Zi0Z2i7jiWKowIW1bL3z7f26nN1+3ZH1tTOmRhZrd8q6NS1VhaWLLA/kRZMy8+e3VpkiDdVld1DutGtvCcVBpk5+beBM8dCaj0A2nzrdLVgdZNROb8Dlk59akhXmHG9P1yEl0rWahcxDk6fckFUrAUw1QGhbRpfLO5Gn1izCw32h4eHh4eHh4eS4L/APv4j4EFmgQlAAAAAElFTkSuQmCC" alt="idea">
           </div>
           <p class="text-xs font-bold text-center">Our Resources are
             <br> Always up-to date<br>
@@ -311,7 +310,7 @@
 
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -337,7 +336,7 @@
         </div>
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -363,7 +362,7 @@
         </div>
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -389,7 +388,7 @@
         </div>
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -415,7 +414,7 @@
         </div>
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -441,7 +440,7 @@
         </div>
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -467,7 +466,7 @@
         </div>
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -493,7 +492,7 @@
         </div>
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -519,7 +518,7 @@
         </div>
         <!-- card -->
         <div class="flex flex-col  items-center bg-white border-[1.5px] border-cdn-red rounded-md  mx-auto">
-          <img class="rounded-tr-md rounded-tl-md" src="./public/images/image 16.png" alt="html">
+          <img class="rounded-tr-md rounded-tl-md" src="/assets/image 16-3c9781a7.png" alt="html">
           <!-- descriptions -->
           <div class="flex flex-col items-center justify-center gap-y-2 pt-3 pb-5">
             <h4 class="text-lg font-bold">HTML5: Essential tips</h4>
@@ -596,7 +595,7 @@
     <section
       class="px-10 py-8 flex justify-between lgtablet:flex-row lgtablet:items-start md:items-center sm:flex-col lgmobiles:flex-col smmobiles:flex-col">
       <div class=" flex flex-col items-center justify-center">
-        <img class="w-56" src="./public/images/logo.png" alt="cyberdude">
+        <img class="w-56" src="/assets/logo-b609a416.png" alt="cyberdude">
         <p class="text-white text-xs ml-8">Cyberdude Networks Pvt. Ltd. is<br> creative product startup company<br> that
           primary
           focuses
